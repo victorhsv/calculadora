@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css.css"></link>
+    <script type="text/javascript" src="js.js"> </script>   
+   
+</head>
+<body>
+    <div id ="calculadora">
+        <table>
+            <tr class = "tr"><input type = "text" id = "visor" value = "0" onkeydown = "teclado(event)"></input></tr>
+            <tr class = "tr">
+                <td class = "td"><input type = "button" value = "7" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "8" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "9" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "+" onclick = "btnOp(this.value)"></input></td>
+            </tr>
+            <tr class = "tr">
+                <td class = "td"><input type = "button" value = "4" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "5" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "6" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "-" onclick = "btnOp(this.value)"></input></td>
+            </tr>
+            <tr class = "tr">
+                <td class = "td"><input type = "button" value = "1" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "2" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "3" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "*" onclick = "btnOp(this.value)"></input></td>
+            </tr>
+            <tr class = "tr">
+                <td class = "td"><input type = "button" value = "C" onclick = "btnC(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "0" onclick = "btNumber(this.value)"></input></td>
+                <td class = "td"><input type = "button" value = "=" onclick = "btnI()"></input></td>
+                <td class = "td"><input type = "button" value = "/" onclick = "btnOp(this.value)"></input></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
